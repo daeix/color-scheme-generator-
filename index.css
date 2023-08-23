@@ -86,7 +86,7 @@ select {
     height: 47%;
     border-radius: 4px;
     cursor: pointer;
-    border: white solid;
+    /* border: white solid; */
     text-align: center;
     background-color: white;
     border: rgb(213, 210, 210) 2px solid;
