@@ -25,6 +25,7 @@ button {
   border: white solid;
   background-color: white;
   border: rgb(213, 210, 210) 2px solid;
+  font-size: 0.85em;
 }
 
 input {
