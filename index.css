@@ -23,6 +23,7 @@ button {
   border-radius: 4px;
   cursor: pointer;
   border: white solid;
+  text-align: center;
   background-color: white;
   border: rgb(213, 210, 210) 2px solid;
   font-size: 0.85em;
@@ -77,10 +78,10 @@ select {
   background-color: white;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 467px) {
   body {
-    width: 350px;
-    height: 350px;
+    width: 70%;
+    height: auto;
     margin: 0 auto;
   }
 }
