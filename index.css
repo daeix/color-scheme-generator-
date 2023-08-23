@@ -77,11 +77,3 @@ select {
   width: 100%;
   background-color: white;
 }
-
-@media screen and (min-width: 480px) {
-  body {
-    width: 70%;
-    height: auto;
-    display: grid;
-  }
-}
