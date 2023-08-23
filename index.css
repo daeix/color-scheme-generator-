@@ -78,9 +78,9 @@ select {
 }
 
 @media screen and (max-width: 767px) {
-  .just-borders {
-    width: 380px;
-    height: 380px;
+  body {
+    width: 350px;
+    height: 350px;
     margin: 0 auto;
   }
 }
