@@ -27,6 +27,7 @@ button {
   color: black;
   border: rgb(213, 210, 210) 2px solid;
   border-radius: 4px;
+  height: 42px;
 }
 
 p {
