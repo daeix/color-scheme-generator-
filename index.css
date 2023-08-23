@@ -17,25 +17,18 @@ header {
   padding: 0 10px 0 10px;
 }
 
-/* button {
-  width: 25%;
-  height: 47%;
-  border-radius: 4px;
-  cursor: pointer;
-  border: white solid;
-  text-align: center;
-  background-color: white;
-  border: rgb(213, 210, 210) 2px solid;
-  font-size: 0.85em;
-} */
-
 input {
   width: 61px;
   height: 42px;
 }
 
+button {
+  background-color: white;
+  color: black;
+}
+
 p {
-  font-size: 0.85em;
+  font-size: 0.45em;
 }
 
 .color-picker {
@@ -82,5 +75,21 @@ select {
   body {
     width: 550px;
     height: 550px;
+  }
+
+  button {
+    width: 25%;
+    height: 47%;
+    border-radius: 4px;
+    cursor: pointer;
+    border: white solid;
+    text-align: center;
+    background-color: white;
+    border: rgb(213, 210, 210) 2px solid;
+    font-size: 0.85em;
+  }
+
+  p {
+    font-size: 0.85em;
   }
 }
