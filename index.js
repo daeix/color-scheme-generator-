@@ -1,10 +1,10 @@
-"use strict";
+"use strict"
 
-document.getElementById("submit-btn").addEventListener("click", pickColor);
+document.getElementById("submit-btn").addEventListener("click", pickColor)
 
-const schemeMode = document.getElementById("color-scheme-type");
-const colorPalette = document.getElementById("color-palette");
-const seedColor = document.getElementById("seed-color");
+const schemeMode = document.getElementById("color-scheme-type")
+const colorPalette = document.getElementById("color-palette")
+const seedColor = document.getElementById("seed-color")
 
 function pickColor() {
   fetch(
@@ -23,9 +23,9 @@ function pickColor() {
                     <p id="color-value">${colors.hex.value}</p>
                   </div>
                 </div>
-        `;
+        `
         })
-        .join("");
-      colorPalette.innerHTML = colorBar;
-    });
+        .join("")
+      colorPalette.innerHTML = colorBar
+    })
 }
